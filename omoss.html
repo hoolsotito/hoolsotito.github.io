@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            html,body{
+                margin: 0px;
+                padding: 0px;
+                background-color: rgb(179, 179, 179);
+            }
+
+            header{
+                background-color: rgb(245, 236, 116);
+                display: grid;
+                grid-template-columns: 33% auto 33%;
+                padding: 20px;
+            }
+
+            .header-left{
+                padding: 20px;
+                grid-column: 1/2;
+                grid-row: 1/2;
+                font-size: 30px;
+                font-weight: 900;
+                text-align:left ;
+                margin-left: 52px;
+            }
+            .button-hl{
+                padding: 10px;
+                color: black;
+                transition: 0.35;
+            }
+            .button-hl:hover{
+                color: white;
+            }
+            .header-center{
+                grid-column: 1/4;
+                grid-row: 1/2;
+                margin: 15px;
+                padding: 10px;
+                font-size: 50px;
+                font-weight: 900;
+                text-align: center;
+            }
+                
+
+
+
+
+            main{
+                margin-top: 2px;
+                display: grid;
+                grid-template-columns: 20% 49% 31%;
+                grid-template-rows: auto;
+                grid-gap: 0px;
+                background-color:rgb(136, 136, 136) ;
+                padding: 20px;
+            }
+            .main-p{
+                grid-column: 2/3;
+                padding: 40px;
+                font-size: 20px;
+            }
+
+
+
+            a{
+                text-decoration: none;
+            }
+
+            footer{
+                display: grid;
+                grid-template-columns: auto;
+                grid-template-rows: auto ;
+                background-color: black;
+                color: white;
+                text-align: center;
+            }
+            .footer-text{
+                padding: 20px;
+            }
+            .a-wikipedia{
+                color: black;
+                transition: 0.35s;
+            }
+            .a-wikipedia:hover{
+                color: white;
+            }
+            .a-bergen-kommune{
+                color: black;
+                transition: 0.35s;
+            }
+            .a-bergen-kommune:hover{
+                color: white;
+            }
+            .a-visitbergen{
+                color: black;
+                transition: 0.35s;
+            }
+            .a-visitbergen:hover{
+                color: white;
+            }
+
+
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <article class="header-left">
+                <a href="index.html" class="button-hl">BERGEN's<br>attraksjoner</a>
+            </article>
+            <article class="header-center">
+                om oss
+            </article>
+        </header>
+        <main>
+            <p class="main-p">Tithawat sisa<br>
+            16 år gammel.<br>
+            Elev fra Voss Gymnas<br>
+            Web er projekt for å lever læreren.<br>
+            Informasjon også fra <a class="a-wikipedia" href="https://www.wikipedia.org/">www.wikipedia.org</a>
+            ,<a class="a-visitbergen" href="https://www.visitbergen.com/ting-a-gjore/bryggen-i-bergen-p878553">www.visitbergen.com</a>
+            ,<a class="a-bergen-kommune" href="https://www.bergen.kommune.no/omkommunen/fakta-om-bergen/historie">www.bergen.kommune</a>
+        </p>
+        </main>
+        <footer>
+            <p class="footer-text">
+                thithawat.sisa@gmail.com<br>
+                +47 469 03 545<br>
+                <b>Her nettsiden</b> bli lagt for å lever læreren <b>Øyvind Naustdal</b>.
+                
+            </p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            html,body{
+                margin: 0px;
+                padding: 0px;
+                background-color: rgb(179, 179, 179);
+            }
+
+            header{
+                background-color: rgb(245, 236, 116);
+                display: grid;
+                grid-template-columns: 33% auto 33%;
+                padding: 20px;
+            }
+
+            .header-left{
+                padding: 20px;
+                grid-column: 1/2;
+                grid-row: 1/2;
+                font-size: 30px;
+                font-weight: 900;
+                text-align:left ;
+                margin-left: 52px;
+            }
+            .button-hl{
+                padding: 10px;
+                color: black;
+                transition: 0.35;
+            }
+            .button-hl:hover{
+                color: white;
+            }
+            .header-center{
+                grid-column: 1/4;
+                grid-row: 1/2;
+                margin: 15px;
+                padding: 10px;
+                font-size: 50px;
+                font-weight: 900;
+                text-align: center;
+            }
+            .header-right{
+                grid-column: 1/4;
+                grid-row: 1/2;
+                margin: 40px;
+                margin-right:52px ;
+                font-size: 30px;
+                font-weight: 900;
+                text-align: right;
+                
+            }
+            .om-oss{
+                padding: 10px;
+                color: rgb(0, 0, 0);
+                border: 2px solid rgb(0, 0, 0);
+                transition: 0.35s;
+            }
+            .om-oss:hover{
+            background-color:rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            }
+
+
+
+
+            main{
+                margin-top: 2px;
+                display: grid;
+                grid-template-columns: 20% 49% 31%;
+                grid-template-rows: auto;
+                grid-gap: 0px;
+                background-color:rgb(136, 136, 136) ;
+                padding: 20px;
+            }
+
+
+
+            .col-link{
+                grid-column: 1/2;
+                grid-row: 2/auto;
+                text-align: center;
+            }
+            .col-inf-p{
+                font-size: 20px;
+                margin: 10px;
+                }
+            .col-inf{
+                grid-column: 2/3;
+                grid-row: 2/auto;
+                text-align: center;
+
+            }
+            .col-bilder-{
+                grid-column: 3/4;
+                grid-row: 2/auto;
+            }
+            .col-bilder{
+                display: inline-block;
+                width: 220px;
+                height: 220px;
+                transition: width 2s, height 4s;
+                border: 2px solid rgb(255, 255, 255);
+            }
+            .col-bilder:hover{
+                width: 470px;
+                height: 300px;
+            }
+
+
+
+            .button:hover{
+            background-color:white;
+            color: black;
+            }
+            .button{
+                display: inline-block;
+                padding: 20px;
+                color: white;
+                margin: 5px;
+                font-weight: 500; 
+                font-size: 25px; 
+                border: 2px solid white;    
+                transition: 0.35s;
+            }
+
+
+            a{
+                text-decoration: none;
+            }
+
+            footer{
+                display: grid;
+                grid-template-columns: auto;
+                grid-template-rows: auto ;
+                background-color: black;
+                color: white;
+                text-align: center;
+            }
+            .footer-text{
+                padding: 20px;
+            }
+
+
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <article class="header-left">
+                <a href="index.html" class="button-hl">BERGEN's<br>attraksjoner</a>
+            </article>
+            <article class="header-center">
+                Bryggen
+            </article>
+            <article class="header-right">
+                <a class="om-oss" href="omoss.html">
+                    Om oss
+                </a>
+            </article>
+        </header>
+        <main>
+            <article class="col-link">
+                <a class="button" href="bergensentrum.html">Bergen sentrum</a><br>
+                <a class="button" href="bryggen.html">Bryggen</a><br>
+                <a class="button" href="stoltzekleiven.html">Stoltzekleiven</a><br>
+                <a class="button" href="fløyen.html">Fløyen</a><br>
+                <a class="button" href="ulriken.html">Ulriken</a><br>
+            </article>
+            <article class="col-inf">
+                <p class="col-inf-p">
+                    Bryggen har gjennom århundrer vært en livlig og sentral del av byen. Bryggen har vært herjet av mange branner og storbrannen i 1702 la hele byen i aske. Bryggen er også ofte kalt Tyskerbryggen.<br><br>
+
+                    Da bebyggelsen ble gjenreist, ble det gamle byggemønsteret fulgt slik at Bryggens profil står som den har stått fra 1100-­tallet, uberørt av skiftende tider.<br><br>
+                    
+                    Bryggen i Bergen ble i 1979 oppført på UNESCOs verdensarvliste over felles kulturarv og Bergen ble da en World Heritage City. Det het seg at Bryggen viser en eneståede kulturell tradisjon om hvordan hanseatene på 1300-tallet benyttet Bryggen som handelssentrum og boliger.<br><br>
+                    
+                    Skjult bak den ikoniske fasaden på Bryggen ligger en hemmelig verden av passasjer, småbutikker, gallerier og studioer. I de tidligere lagerlokalene og hanseatiske kontorene har nå designere og kunsterne tatt over. Tørrfisk og andre handelsvarer skipet til og fra Norge er byttet ut med tekstildesign smykkedesign, illustrasjon, strikk, fotografi, bøker – og en koselig kafe. Les mer om artistene bak fasaden på Bryggen.<br><br>
+                    
+                    Verdenskulturminnet er rester av gammel havnebebyggelse og et av de mest kjente bystrøk fra middelalderen i Norge. Hanseatene, det tyske kjøpmannsforbundet, opprettet utenlandskontor på Bryggen i 1360, og i nesten 400 år dominerte de bydelen. Handelsgårdene på Bryggen fungerte som lager for eksport og import og det var tørrfisk fra Nord-Norge som var dominerende.<br><br>
+                    
+                    En spasertur gjennom de trange passasjene og mørke svalgangene er som å bevege seg bakover i tiden, inn i historiens halvmørke fra middelalderen til nåtid. Bryggen fremstår som et levende kultur­minne som er i bruk i en aktiv historisk bydel.<br><br>
+                    
+                    I dag finner du mange attraksjoner på Bryggesiden, fra Fisketorget til Bergenhus festning og en rekke ulike spisesteder, restauranter og butikker, mange av dem innen tradisjonelt og unikt kunsthåndverk.
+                </p>
+            </article>
+            <article class="col-bilder-">
+                <img class="col-bilder" src="bilder\bilde komme01.jpg">
+                <img class="col-bilder" src="bilder\bilde komme01.jpg">
+                <img class="col-bilder" src="bilder\bilde komme01.jpg">
+                <img class="col-bilder" src="bilder\bilde komme01.jpg">
+                <img class="col-bilder" src="bilder\bilde komme01.jpg">
+                <img class="col-bilder" src="bilder\bilde komme01.jpg">
+            </article>
+        </main>
+        <footer>
+            <p class="footer-text">
+                thithawat.sisa@gmail.com<br>
+                +47 469 03 545<br>
+                <b>Her nettsiden</b> bli lagt for å lever læreren <b>Øyvind Naustdal</b>.
+            </p>
+        </footer>
+    </body>
+</html>

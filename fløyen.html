@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            html,body{
+                margin: 0px;
+                padding: 0px;
+                background-color: rgb(179, 179, 179);
+            }
+
+            header{
+                background-color: rgb(245, 236, 116);
+                display: grid;
+                grid-template-columns: 33% auto 33%;
+                padding: 20px;
+            }
+
+            .header-left{
+                padding: 20px;
+                grid-column: 1/2;
+                grid-row: 1/2;
+                font-size: 30px;
+                font-weight: 900;
+                text-align:left ;
+                margin-left: 52px;
+            }
+            .button-hl{
+                padding: 10px;
+                color: black;
+                transition: 0.35;
+            }
+            .button-hl:hover{
+                color: white;
+            }
+            .header-center{
+                grid-column: 1/4;
+                grid-row: 1/2;
+                margin: 15px;
+                padding: 10px;
+                font-size: 50px;
+                font-weight: 900;
+                text-align: center;
+            }
+            .header-right{
+                grid-column: 1/4;
+                grid-row: 1/2;
+                margin: 40px;
+                margin-right:52px ;
+                font-size: 30px;
+                font-weight: 900;
+                text-align: right;
+                
+            }
+            .om-oss{
+                padding: 10px;
+                color: rgb(0, 0, 0);
+                border: 2px solid rgb(0, 0, 0);
+                transition: 0.35s;
+            }
+            .om-oss:hover{
+            background-color:rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            }
+
+
+
+
+            main{
+                margin-top: 2px;
+                display: grid;
+                grid-template-columns: 20% 49% 31%;
+                grid-template-rows: auto;
+                grid-gap: 0px;
+                background-color:rgb(136, 136, 136) ;
+                padding: 20px;
+            }
+
+
+
+            .col-link{
+                grid-column: 1/2;
+                grid-row: 2/auto;
+                text-align: center;
+            }
+            .col-inf-p{
+                font-size: 20px;
+                margin: 10px;
+                }
+            .col-inf{
+                grid-column: 2/3;
+                grid-row: 2/auto;
+                text-align: center;
+
+            }
+            .col-bilder-{
+                grid-column: 3/4;
+                grid-row: 2/auto;
+            }
+            .col-bilder{
+                display: inline-block;
+                width: 220px;
+                height: 220px;
+                transition: width 2s, height 4s;
+                border: 2px solid rgb(255, 255, 255);
+            }
+            .col-bilder:hover{
+                width: 470px;
+                height: 300px;
+            }
+
+
+
+            .button:hover{
+            background-color:white;
+            color: black;
+            }
+            .button{
+                display: inline-block;
+                padding: 20px;
+                color: white;
+                margin: 5px;
+                font-weight: 500; 
+                font-size: 25px; 
+                border: 2px solid white;    
+                transition: 0.35s;
+            }
+
+
+            a{
+                text-decoration: none;
+            }
+
+            footer{
+                display: grid;
+                grid-template-columns: auto;
+                grid-template-rows: auto ;
+                background-color: black;
+                color: white;
+                text-align: center;
+            }
+            .footer-text{
+                padding: 20px;
+            }
+
+
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <article class="header-left">
+                <a href="index.html" class="button-hl">BERGEN's<br>attraksjoner</a>
+            </article>
+            <article class="header-center">
+                Fløyen
+            </article>
+            <article class="header-right">
+                <a class="om-oss" href="omoss.html">
+                    Om oss
+                </a>
+            </article>
+        </header>
+        <main>
+            <article class="col-link">
+                <a class="button" href="bergensentrum.html">Bergen sentrum</a><br>
+                <a class="button" href="bryggen.html">Bryggen</a><br>
+                <a class="button" href="stoltzekleiven.html">Stoltzekleiven</a><br>
+                <a class="button" href="fløyen.html">Fløyen</a><br>
+                <a class="button" href="ulriken.html">Ulriken</a><br>
+            </article>
+            <article class="col-inf">
+                <p class="col-inf-p">
+                    Fløyfjellet eller Fløyen er et av Byfjellene i Bergen, og en av Bergens mest populære turistattraksjoner. Fløyfjellet er først og fremst navnet på fjelltoppen, som har en høyde på 400 meter over havet og ligger rett ovenfor Bergen sentrum.
+                </p>
+            </article>
+            <article class="col-bilder-">
+                <img class="col-bilder" src="bilder\IMG_3390.JPG">
+                <img class="col-bilder" src="bilder\IMG_3395.JPG">
+                <img class="col-bilder" src="bilder\IMG_3387.JPG">
+                <img class="col-bilder" src="bilder\IMG_3384.JPG">
+                <img class="col-bilder" src="bilder\IMG_3407.JPG">
+                <img class="col-bilder" src="bilder\IMG_3393.JPG">
+            </article>
+        </main>
+        <footer>
+            <p class="footer-text">
+                thithawat.sisa@gmail.com<br>
+                +47 469 03 545<br>
+                <b>Her nettsiden</b> bli lagt for å lever læreren <b>Øyvind Naustdal</b>.
+            </p>
+        </footer>
+    </body>
+</html>
